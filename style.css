@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body {
+    font-family: 'Poppins';
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart{
+    width: 20px;
+    margin-right: 1rem;
+}
+
+#npm-logo {
+    width: 75px;
+    margin-block-start: 60px;
+    margin-top: 50px;
+}
+
+#magnifying-glass{
+    width: 25px;
+    margin: 0 0 0 100px;
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.search-organize {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+} 
+
+.search-organize > .search-bar {
+    box-sizing: content-box;
+    padding: 5px; 
+    width: 300px;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    width: fit-content;
+}
+
+.search-organize img{
+    width: 15%;
+}
+
+.trihex{
+    width: 370px;
+    display: flex;
+    align-items: center;
+} 
+
+.zero-configuration{
+    width: 100px;
+}
+
+.flex-work img{
+    width: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .build-amazing-things{
+  height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  background-color: rgba(232,217,217,.3);
+}
+
+.flex-work{
+  display: flex;
+  flex-direction: row;
+}
+.flex-work{
+  width: 900px;
+  margin: 0 auto;
+}
+.config .team .features {
+  width: 280px;
+  justify-content: space-evenly;
+}
+
+.flex-work > .config > h4{
+  color: #ED1C24;
+  
+}
+.flex-work > .team > h4{
+    color: #ED1C24;
+    
+  }
+.flex-work > .features> h4{
+    color: #ED1C24;
+    
+  }
+.flex-work > .audit > h4{
+    color: #ED1C24;
+    
+  }
+.build-amazing-things > h2{
+    font-size: 75px;
+    font-weight:bolder;
+}
+
+
+.bring-the-best{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.bring-the-best > h3{
+    font-size: 25px;
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+}
+.box-contain{
+    display: flex;
+      justify-content: space-evenly;
+    }
+.plans{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+      font-size: 1.7em;
+    text-align: center;
+    border: 2px solid #eee;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    padding: 20px;
+    text-decoration: none;
+    background-color: #FB3B49;
+    color: white;
+    margin: 20px;
+  }
+  .join-free{
+      font-size: 1.7em;
+    text-align: center;
+    border: 2px solid #eee;
+    box-sizing: border-box;
+    padding: 20px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    margin: 20px;
+  }
+
+.Org-button {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+    text-align: center;
+    border: 2px solid #eee;
+    box-sizing: content-box;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    padding: 10px; 
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin: 0 0 0 625px;
+} 
+.Join{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+    text-align: center;
+    border: 1px solid gray;
+    box-sizing: content-box;
+    /* box-shadow: 8px 8px 0 rgba(251,59,73,.2); */
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    
+}
+.Login{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+    margin: 20px;
+}
+.search-organize {
+    float: center;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+
+  } 
+  .Organization{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+    text-align: center;
+  }
